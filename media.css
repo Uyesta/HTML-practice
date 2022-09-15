@@ -1,0 +1,97 @@
+@media screen and (max-width:1170px) {
+    .section-blog .blogs{
+        width: 90%;
+    }
+
+    .section-servis .boxes{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .main .main-right img{
+    width: 40%;
+    height: 49%;
+    position: absolute;
+    right: 57px;
+    }
+
+    .section-proje .projes .proje .projeimg img{
+        object-position: left;
+    }
+    
+    .main .main-left .bio .btn{
+        width: 29%;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .section-servis .boxes{
+        grid-template-columns: 1fr;
+    }
+    .section-proje .projes .proje{
+        display: block;
+    }
+    .section-proje .projes .proje .projeimg{
+        height: 300px;
+    }
+    .section-proje .projes .proje .projeimg img{
+        height: 100% !important;
+        object-fit: cover;
+    }
+    .section-blog .blogs{
+        grid-template-columns: 1fr;
+    }
+    .main .main-right{
+        display: none;
+    }
+    .main .main-left{
+        width: 100%;
+    }
+    header .box .menu{
+        display: none;
+    }
+    header .box{
+        grid-template-columns: 1fr;
+        filter: brightness(10.5);
+    }
+    header .box .logo{
+        justify-content: center;
+        width: 100%;
+    }
+    .main .main-left .bio{
+        text-align: center;
+        justify-items: center;
+    }
+    .main .main-left .underline{
+        display: none;
+    }
+    .section-expierence .jobs{
+        flex-wrap: wrap;
+    }
+    .section-expierence .jobs .btn-group{
+        width: 100%;
+    }
+    .section-expierence .jobs .decs{
+        width: 100%;
+    }
+    .section-expierence .jobs .btn-group .btn{
+        border: none;
+        color: var(--primary-text-color);
+        background-color: var(--primary-background-color);
+        border-radius: var(--radius);
+    }
+
+    .section-expierence .jobs .btn-group .btn:hover{
+        color: var(--link-hover-color);
+        transition: all 0.3s linear;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .section-proje .projes .proje{
+        width: 90vw;
+        margin: 0 auto 4rem auto;
+    }
+}
