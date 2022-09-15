@@ -23,6 +23,7 @@
     .main .main-left .bio .btn{
         width: 29%;
     }
+
 }
 
 @media screen and (max-width:768px) {
@@ -87,6 +88,9 @@
         color: var(--link-hover-color);
         transition: all 0.3s linear;
     }
+
+
+
 }
 
 @media screen and (max-width:540px) {
@@ -94,4 +98,5 @@
         width: 90vw;
         margin: 0 auto 4rem auto;
     }
+
 }
