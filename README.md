@@ -1,8 +1,7 @@
 ### HTML-CSS Practice
 
 ## 👨🏻‍💻 About the project
-
-<img src="https://i.imgur.com/k44jID8.png">
+<img src="https://i.imgur.com/3tYadtI.png">
 <img src="https://i.imgur.com/3ctlo4d.png">
 
 ## 👀 Demo
